@@ -1,444 +1,140 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
 
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,300,700,600,500' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700' rel='stylesheet' type='text/css'>
+.menu {
+  display: none;
+}
+</style>
+<body>
 
+<!-- Links (sit on top) JUST A BLACK HEADER NOW -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black"></a>
+    </div>
 
-        <link rel="stylesheet" href="css/slicknav.css">
-        <link rel="stylesheet" href="css/owl.theme.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/owl.transitions.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  </div>
+</div>
 
-        <!-- Add your site or application content here -->
-         
-         <!-- header Start
-         ================================================= -->
-        
-        <section id="header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="block-left">
-							<nav class="navbar navbar-default" role="navigation">
-							  <div class="container-fluid">
-								<!-- Brand and toggle get grouped for better mobile display -->
-								<div class="navbar-header">
-								  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								  </button>
-								  <div class="nav-logo">
-									<a href="#"><img src="img/logo.png" alt="logo"></a>
-								  </div>
-								</div>
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">info@10percent.ch</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">the<br>Cafe</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Zurich, Switzerland</span>
+  </div>
+</header>
 
-								<!-- Collect the nav links, forms, and other content for toggling -->
-								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-								  <ul class="nav navbar-nav">
-									<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-									<li><a href="#contant-1">How it works</a></li>
-									<li><a href="#gallery">Team</a></li>
-                                    <li><a href="#footer">Contact</a></li>
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
 
-								  </ul>
-								</div><!-- /.navbar-collapse -->
-							  </div><!-- /.container-fluid -->
-							</nav>
-                        </div>
-                    </div><!-- .col-md-6 -->
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE 10% SOCIETY</span></h5>
+    <p> <p><strong>The 10% society</strong> is a club of caring individual that pledge to donate a 10% of their net income to charity. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Think of giving not as a duty but as a privilege. 
+"</i></p>
+      <p>- John D. Rockefeller, Jr</p>
+    </div>
 
-                    <div class="col-md-6">
-                        <div class="block-right">
-                            <div class="contact-area">
-                                <ul>
-                                    <li><i class="fa fa-envelope-o"></i>challenge-accepted@gmail.com</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-6 close -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #heder close -->
-
-        <!-- Slider Start
-        ============================================================== -->
-
-        <section id="slider">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block">
-                            <div class="slider-text-area">
-                                <div class="slider-text">
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 close -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #slider close -->
-
-        <!-- Service Start 
-        ============================================================= -->
-
-        <section id="service">  
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block-top">
-                            <div class="service-header">
-                                <h1>Take challenges in three amazing categories</h1>
-                                <p>Challenge accepted! is a smartphone app that allows you to challenge your friends, colleagues and family to do good. It serves as a platform, where everyone can upload sustainability-related challenges, set themselves goals and share their success. The challenges can either be done privately within a group of friends or public and thus open for everyone. In this way, CA! provides an easy try-out of low-impact lifestyles with valuable background information, tips, scorekeeping and social activities! </p>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 close -->
-                </div><!-- row close -->
-				<div class="row">
-					<div class="col-md-12">
-						<div class="block-bottom">
-							<div class="service-tab">
-								  <!-- Nav tabs -->
-								  <ul class="badhon-tab" role="tablist">
-									<li class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">
-									<i class="fa fa-leaf"></i>
-									Reduce your     Impact
-									</a></li>
-									<li><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-									<i class="fa fa-heart-o"></i>
-									Live healthier
-									</a></li>
-									<li><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
-									<i class="fa fa-sun-o"></i>
-									Improve your Karma
-									</a></li>
-								  </ul>
-
-								  <!-- Tab panes -->
-								  <div class="tab-content edit-tab-content">
-									<div class="tab-pane active edit-tab" id="home">
-										<div class="teb-icon-edit">
-											<i class="fa fa-leaf"></i>
-										</div>
-										<h1>Nature Challenges</h1>
-										<p>Get active to reduce global warming and its impacts: Take the bike to work, eat vegetarian or avoid plastic bags for a week!</p>
-									</div>
-									<div class="tab-pane edit-tab" id="profile">
-										<div class="teb-icon-edit">
-											<i class="fa fa-heart-o"></i>
-										</div>
-										<h1>Health Challenges</h1>
-										<p>Do more Sports, eat healthy or stop smoking: Various challenges are waiting to reward you with an increased physical fitness and health level.</p>
-									</div>
-									<div class="tab-pane edit-tab" id="messages">
-										<div class="teb-icon-edit">
-											<i class="fa fa-sun-o"></i>
-										</div>
-										<h1>Karma Challenges</h1>
-										<p>Team up with your friends to engage in fair trade, charity work or donation challenges that help to make our world more peaceful and equitable place</p>
-									</div>
-								  </div>
-							</div>
-						</div>
-					</div><!-- .col-md-12 close -->
-				</div><!-- row close -->
-            </div><!-- .container close -->
-        </section><!-- #service close -->
-
-
-        <!-- contant-1 start
-        ===================================================== -->
-
-        <section id="contant-1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="block-left">
-                            <div class="contant-1-text-area">
-                                <div class="contant-1-text">
-                                    <h2>1. Find your Challenge</h2>
-                                    <p>Simply browse through our challenges, learn why they make sense and join to take action!  </p>
-                                          <br>                                                    </br>
-                                </div>
-                                <div class="block-right-img">
-                                <img src="img/phone1.png" alt="img">
-                            </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-6 close -->
-                         <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="block-left">
-                            <div class="contant-1-text-area">
-                                <div class="contant-1-text">
-                                    <h2>2. Do good</h2>
-                                    <p>Engage in doing good and have fun sharing your experience with your friends at the same time!</p>
-                                    <br>                                                    </br>
-                                </div>
-                                <div class="block-right-img">
-                                <img src="img/phone2.png" alt="img" align="center">
-                            </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-6 close -->
-                         <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="block-left">
-                            <div class="contant-1-text-area">
-                                <div class="contant-1-text">
-                                    <h2>3. Get rewarded</h2>
-                                    <p>You score points for every good thing you do and they give cool bagdes in your profile! </p>
-                                          <br>                                                    </br>
-                                </div>
-                                <div class="block-right-img">
-                                <img src="img/phone3.png" alt="img">
-                            </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-6 close -->
-                    
-        </section><!-- #contant-1 close -->
-
-
-        <!-- testimonial Start
-        ============================================================= -->
-
-        <section id="testimonial">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block">
-                            <div class="testimonial-area">
-                                <div class="tm-contant">
-                                    <div class="tm-contant-items" id="slide-testimonial">
-                                        <div class="tm-contant-list item">
-                                            <div class="tm-img">
-                                                <img src="img/SIA.png" alt="img">
-                                            </div>
-                                            <div class="tm-text">
-                                                <p>Social Impact Award Winner 2015</p>
-                                            </div>
-                                        </div>
-                                        <div class="tm-contant-list item">
-                                            <div class="tm-img">
-                                                <img src="img/I4C.png" alt="img">
-                                            </div>
-                                            <div class="tm-text">
-                                                <p>Climate KIC Fellow 1st Stage</p>
-                                            </div>
-                                        </div>
-                                        <div class="tm-contant-list item">
-                                            <div class="tm-img">
-                                                <img src="img/HUB.jpg" alt="img">
-                                            </div>
-                                            <div class="tm-text">
-                                                <p>Impact Hub Zurich Member</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 close -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #testimonial close -->
-
-       
-        <!-- Contant-2 Start
-        =============================================================== -->
-
-        <section id="contant-2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="block-left">
-                            <div class="contant-2-img">
-                                <img src="img/mobile-phon-3.png" alt="img">
-                            </div>
-                        </div>
-                    </div><!-- .col-md-6 close -->
-
-                    <div class="col-md-6">
-                        <div class="block-right">
-                            <div class="contant-2-text-area">
-                                <div class="contant-2-header">
-                                    <h1>We connect sustainability to fun, social interaction and competition</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-6 close -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #contant-2 close -->
-
-         <!-- Gallery Start
-        ============================================================= -->
-
-        <section id="gallery">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block-top">
-                            <div class="gallery-area">
-                                <h1>Meet our awesome team</h1>
-                                <p>We are a diverse team of young sustainability and entrepreneurship enthusiasts, who enjoy putting their time and effort into things that actually make a change. Challenge Accepted! is a project that we develop during our freetime and mainly for the sake of doing good and learning a lot on the way. </p>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 -->
-                </div><!-- .row close -->
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block-bottom">
-                            <div class="gallery-list" id="owl-demo">
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/Chris.png" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                        <h3>Chris</h3>
-                                        <p>.. is a PhD student at KIT and longtime vegetarian who cares about our planet just as much as about farm animals. </p>
-                                    </div>
-                                </div>
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/Jonas.png" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                    <h3>Jonas</h3>
-                                        <p>.. is doing his Master Thesis in Computer Science at ETH Zurich. Jonas is the kind of sports guy who takes his bike anywhere!  </p>
-                                    </div>
-                                </div>
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/Max.png" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                        <h3>Max</h3>
-                                        <p>.. is working as a Software Engineer in Karlsruhe. He has a faible for a good karma and fair trade coffee </p>
-                                    </div>
-                                </div>
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/kangoroo.jpg" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                  <h3>Chris</h3>
-                                        <p>.. is doing a Computer Science Bachelor in Stuttgart. When he's not programming, you'll find him in his urban garden planting a tree.</p>
-                                    </div>
-                                </div>
-                                <div class="gallery-items item">
-                                    <div class="gallery-img">
-                                        <img src="img/maxh.jpg" alt="img">
-                                    </div>
-                                    <div class="gallery-items-text">
-                                  <h3>Max</h3>
-                                        <p>.. is in the Computer Science Master Program at KIT. He keeps his impact low by eating vegan!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 close -->
-                </div><!-- .row close -->
-                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="block-top">
-                            <div class="gallery-area">
-                                <p>Our project started during a seminar at ETH Zurich in the summer of 2015. We are very thankful for everyone who has contributed along the way, particularly Moritz, Tscherina, Romeo, Vassilis, Thomas and Jan as well as our Coach Sascha. Furthermore, we have received great support from Impact Hub Zurich and the Climate KIC Fellowship.</p>
-                            </div>
-                        </div>
-                    </div><!-- .col-md-12 -->
-                </div><!-- .row close -->
-            </div><!-- .container close -->
-        </section><!-- #gallery close -->
+    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+  </div>
+</div>
 
 
 
 
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CAUSES WE CARE ABOUT</span></h5>
+  <p>Here are some of the causes we have donated for in the past</p>
 
-        <section id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="block">
-                            <div class="footer-contant">
-                                <h3>Get In Touch, Say Hi!</h3>
-                                <div class="social-icon">
-                                    <a href="https://www.facebook.com/Challenge-Accepted-744075225713490/"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-envelope"></i></a>
-                                </div>
-                                <div class="support-link">
-                                    <ul>
-                                        <li><a><i class="fa fa-copyright"></i>
-Copyright 2016 - Challenge Accepted!</a></li>
-                                        <li><a href="impressum.html">Terms of Service</a></li>
-                                                                                <li><a href="#">Contact us</a></li>
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+    </div>
 
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- col-md-12 -->
-                </div><!-- .row -->
-            </div><!-- .container -->
-        </section><!-- #footer -->
+    <div class="w3-col m3">
+      <img src="/w3images/p2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+    </div>
 
+    <div class="w3-col m3">
+      <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+    </div>
 
+    <div class="w3-col m3">
+      <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+    </div>
+  </div>
 
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="/w3images/p5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+    </div>
 
+    <div class="w3-col m3">
+      <img src="/w3images/p6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    </div>
 
+    <div class="w3-col m3">
+      <img src="/w3images/p7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
 
+    <div class="w3-col m3">
+      <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
 
-
-
-
-
-
-
-
+  </div>
+</div>
 
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-    </body>
+<!-- End page content -->
+</div>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
 </html>
